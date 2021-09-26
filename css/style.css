@@ -337,3 +337,26 @@ nav:hover {
 }
 
 /* footer end */
+.window{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.window:target{
+  display: flex;
+}
+
+.window__form{
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
